@@ -6,9 +6,10 @@ import (
 	"time"
 )
 
+// example taken from grokking
 // pick a pivot
 // partition the array into two sub arrays
-// call quicksoert recursively on the two sub arrays
+// call quicksort recursively on the two sub arrays
 func qsGrokking(arr []int) []int {
 	if len(arr) < 2 {
 		return arr
@@ -53,11 +54,58 @@ func checkSorted(arr []int) {
 	fmt.Println("The array is sorted")
 }
 
-func main() {
-	arr := randomArr(200, 2000)
-	fmt.Println("Array to be sorted: ", arr[:20])
+func quicksort(arr []int, lo, hi int) {
+	if lo >= hi || lo < 0 {
+		return
+	}
 
+	p := partition(arr, lo, hi)
+	quicksort(arr, lo, p-1)
+	quicksort(arr, p+1, hi)
+}
+
+// divides array into two partition
+func partition(arr []int, lo, hi int) int {
+	pivot := arr[hi] // choose the last element as the pivot
+
+	// temp pivot index
+	i := lo - 1
+
+	for j := lo; j < hi; j++ {
+		if arr[j] <= pivot {
+			i += 1
+			arr[j], arr[i] = arr[i], arr[j]
+		}
+	}
+
+	i += 1
+	arr[i], arr[hi] = arr[hi], arr[i]
+
+	return i
+}
+
+func main() {
+	// quicksort from grokking
+	arr := randomArr(100_000_000, 200_000_000)
+	fmt.Printf("Array to be sorted: %v\n", arr[:20])
+
+	start := time.Now()
 	r := qsGrokking(arr)
-	fmt.Println("Sorted array: ", r[:20])
+	t := time.Since(start)
+	fmt.Printf("Time taken: %.2f seconds\n", t.Seconds())
+
+	fmt.Printf("Sorted array: %v\n", r[:20])
 	checkSorted(r)
+
+	// workflow
+	arr2 := randomArr(100_000_000, 200_000_000)
+	fmt.Println("Array to be sorted: ", arr2[:20])
+
+	start = time.Now()
+	quicksort(arr2, 0, len(arr2)-1)
+	t = time.Since(start)
+	fmt.Printf("Time taken: %.2f seconds\n", t.Seconds())
+
+	fmt.Printf("Sorted array: %v\n", arr2[:20])
+	checkSorted(arr2)
 }
