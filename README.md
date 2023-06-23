@@ -16,6 +16,6 @@ TODO:
     2. [x] Quick sort
     3. [x] Counting sort
     4. [x] Linear search
-    5. [ ] Binary search
+    5. [x] Binary search
 2. Linked data structure
 ...
