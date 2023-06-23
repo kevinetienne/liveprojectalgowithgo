@@ -15,7 +15,7 @@ TODO:
     1. [x] Bubble sort
     2. [x] Quick sort
     3. [x] Counting sort
-    4. [ ] Linear search
+    4. [x] Linear search
     5. [ ] Binary search
 2. Linked data structure
 ...
