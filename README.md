@@ -18,8 +18,8 @@ TODO:
     4. [x] Linear search
     5. [x] Binary search
 2. Linked data structure
-    1. [ ] Linked lists
-    2. [ ] Loops
+    1. [x] Linked lists
+    2. [x] Loops
     3. [ ] Doubly-linked lists
     4. [ ] Trees
     5. [ ] Sorted binary trees
