@@ -20,6 +20,6 @@ TODO:
 2. Linked data structure
     1. [x] Linked lists
     2. [x] Loops
-    3. [ ] Doubly-linked lists
+    3. [x] Doubly-linked lists
     4. [ ] Trees
     5. [ ] Sorted binary trees
