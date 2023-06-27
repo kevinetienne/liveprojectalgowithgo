@@ -23,3 +23,5 @@ TODO:
     3. [x] Doubly-linked lists
     4. [x] Trees
     5. [x] Sorted binary trees
+3. Recursion
+    1. [x] Factorials
