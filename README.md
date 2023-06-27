@@ -21,5 +21,5 @@ TODO:
     1. [x] Linked lists
     2. [x] Loops
     3. [x] Doubly-linked lists
-    4. [ ] Trees
+    4. [x] Trees
     5. [ ] Sorted binary trees
