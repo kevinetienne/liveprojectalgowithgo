@@ -22,4 +22,4 @@ TODO:
     2. [x] Loops
     3. [x] Doubly-linked lists
     4. [x] Trees
-    5. [ ] Sorted binary trees
+    5. [x] Sorted binary trees
