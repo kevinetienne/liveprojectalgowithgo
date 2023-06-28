@@ -26,7 +26,7 @@ TODO:
 3. Recursion
     1. [x] Factorials
     2. [x] Fibonacci
-    3. [ ] Dynamic Fibonacci
+    3. [x] Dynamic Fibonacci
     4. [ ] The Knight's tour
     5. [ ] The N Queens Problem
     6. [ ] The N Queens Problem, redux
