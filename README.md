@@ -28,6 +28,6 @@ TODO:
     2. [x] Fibonacci
     3. [x] Dynamic Fibonacci
     4. [x] The Knight's tour
-    5. [ ] The N Queens Problem
+    5. [x] The N Queens Problem
     6. [ ] The N Queens Problem, redux
     7. [ ] The tower of Hanoi
