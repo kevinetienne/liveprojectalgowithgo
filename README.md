@@ -30,4 +30,4 @@ TODO:
     4. [x] The Knight's tour
     5. [x] The N Queens Problem
     6. [x] The N Queens Problem, redux
-    7. [ ] The tower of Hanoi
+    7. [x] The tower of Hanoi
