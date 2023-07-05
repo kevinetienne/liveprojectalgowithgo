@@ -33,7 +33,7 @@ TODO:
     7. [x] The tower of Hanoi
 4. Hash Tables
     1. [x] Chaining
-    2. [ ] Linear probing
+    2. [x] Linear probing
     3. [ ] Removing
     4. [ ] Quadratic probing
     5. [ ] Double hashing
