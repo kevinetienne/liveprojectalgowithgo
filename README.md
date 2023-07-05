@@ -34,6 +34,6 @@ TODO:
 4. Hash Tables
     1. [x] Chaining
     2. [x] Linear probing
-    3. [ ] Removing
+    3. [x] Removing
     4. [ ] Quadratic probing
     5. [ ] Double hashing
