@@ -35,5 +35,5 @@ TODO:
     1. [x] Chaining
     2. [x] Linear probing
     3. [x] Removing
-    4. [ ] Quadratic probing
+    4. [x] Quadratic probing
     5. [ ] Double hashing
