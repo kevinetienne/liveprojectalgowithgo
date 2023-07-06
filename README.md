@@ -37,3 +37,10 @@ TODO:
     3. [x] Removing
     4. [x] Quadratic probing
     5. [x] Double hashing
+5. Public Key Cryptography with RSA
+    1. [x] Calculate GCD and LCM
+    2. [ ] Perform fast exponentiation
+    3. [ ] Build a sieve of Eratosthenes
+    4. [ ] Build an Euler's sieve
+    5. [ ] Factor numbers
+    6. [ ] Implement RSA. Calculate GCD and LCM
