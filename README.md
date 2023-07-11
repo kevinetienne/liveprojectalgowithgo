@@ -40,7 +40,7 @@ TODO:
 5. Public Key Cryptography with RSA
     1. [x] Calculate GCD and LCM
     2. [x] Perform fast exponentiation
-    3. [ ] Build a sieve of Eratosthenes
+    3. [x] Build a sieve of Eratosthenes
     4. [ ] Build an Euler's sieve
     5. [ ] Factor numbers
     6. [ ] Implement RSA. Calculate GCD and LCM
