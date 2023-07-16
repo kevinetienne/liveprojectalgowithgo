@@ -43,4 +43,5 @@ TODO:
     3. [x] Build a sieve of Eratosthenes
     4. [x] Build an Euler's sieve
     5. [x] Factor numbers
-    6. [ ] Implement RSA. Calculate GCD and LCM
+    6. [x] Primality
+    6. [ ] Implement RSA
