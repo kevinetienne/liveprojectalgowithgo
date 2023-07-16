@@ -42,5 +42,5 @@ TODO:
     2. [x] Perform fast exponentiation
     3. [x] Build a sieve of Eratosthenes
     4. [x] Build an Euler's sieve
-    5. [ ] Factor numbers
+    5. [x] Factor numbers
     6. [ ] Implement RSA. Calculate GCD and LCM
