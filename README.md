@@ -44,4 +44,4 @@ TODO:
     4. [x] Build an Euler's sieve
     5. [x] Factor numbers
     6. [x] Primality
-    6. [ ] Implement RSA
+    6. [x] Implement RSA
